@@ -1,6 +1,9 @@
 # app-ads.txt for apps published by Devello (Mirror Atelier).
 OWNERDOMAIN=develloco.github.io
 
+# Google AdMob (bidding through LevelPlay)
+google.com, pub-9696841696062036, DIRECT, f08c47fec0942fa0
+
 # Unity LevelPlay / ironSource Ads
 ironsrc.com, 688191, DIRECT
 media.net, 8CUH2L333, RESELLER
