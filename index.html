@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devello</title>
+  <meta name="description" content="Devello makes Mirror Atelier, a calm mirror-mosaic puzzle game.">
+  <style>
+    :root {
+      --bg: #f4ede1;
+      --card: #fffaf2;
+      --ink: #2b2118;
+      --muted: #6b5c4c;
+      --accent: #9a6a2c;
+      --line: #e2d5c2;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1713;
+        --card: #261f19;
+        --ink: #f1e7d8;
+        --muted: #b9a891;
+        --accent: #d8a457;
+        --line: #3a3027;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 56px 16px 40px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 2.2rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .tagline { margin: 0 0 32px; color: var(--muted); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 24px;
+    }
+    h2 { margin: 0 0 8px; font-size: 1.4rem; color: var(--accent); }
+    .card p { margin: 0 0 12px; }
+    .card p:last-child { margin-bottom: 0; }
+    .tr { color: var(--muted); font-style: italic; }
+    footer { margin-top: 32px; font-size: 0.9rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Devello</h1>
+    <p class="tagline">A small studio making calm games.</p>
+    <section class="card">
+      <h2>Mirror Atelier</h2>
+      <p>A cozy mosaic puzzle: lay the pieces on the left half of a picture, and the mirror restores the right. Coming soon to Google Play and the App Store.</p>
+      <p class="tr">Resmin sol yarısına parçaları yerleştir, ayna sağ yarıyı tamamlasın. Yakında Google Play ve App Store'da.</p>
+    </section>
+    <footer>&copy; 2026 Devello</footer>
+  </main>
+</body>
+</html>
